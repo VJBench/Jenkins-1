@@ -1,0 +1,1 @@
+{"input": "    @Exported(inline=true)\n    public Map<String/*monitor name*/,Object> getMonitorData() {\n        Map<String,Object> r = new HashMap<String, Object>();\n        <extra_id_0>\n        return r;\n    }\n", "function range": "1069,4-1076,4", "jasper": "fail"}

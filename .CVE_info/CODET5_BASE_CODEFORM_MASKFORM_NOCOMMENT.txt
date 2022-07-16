@@ -1,0 +1,6 @@
+    @Exported(inline=true)
+    public Map<String/*monitor name*/,Object> getMonitorData() {
+        Map<String,Object> r = new HashMap<String, Object>();
+        <extra_id_0>
+        return r;
+    }
