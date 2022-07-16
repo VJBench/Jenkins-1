@@ -3,9 +3,9 @@
     "buggy_method":[[1069,1078]],
     "buggy_line":[[1075,1076]],
     "bug_type": "replace",
-    "compile_cmd": "mvn clean install -DskipTests",
-    "test_cmd" : "mvn test -pl test -Dtest=ComputerConfigDotXmlTest",
+    "compile_cmd": "mvn install -DskipTests",
+    "test_cmd" : "mvn clean test -pl test -Dtest=ComputerConfigDotXmlTest",
     "CVE": "CVE-2017-2600",
-    "skip_compile_cmd": true,
+    "skip_compile_cmd": false,
     "github_url":"https://github.com/jenkinsci/jenkins"
 }
